@@ -149,9 +149,6 @@ class Obtener_Datos(Programa):
         datosTupla = (N,listaPalabras,nombreArchivo)
         print(datosTupla)
         return datosTupla
-# class prueba(Programa):
-#     def sumar(self):
-#         print(4+5)
 class Escritor(Programa):
     def escribir_tablero(self,matriz,nombreArchivo):
         with open(nombreArchivo,"w", newline="") as archivo:
